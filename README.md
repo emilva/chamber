@@ -1,4 +1,6 @@
 # Chamber
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Femilva%2Fchamber.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Femilva%2Fchamber?ref=badge_shield)
+
 
 Chamber is a tool for managing secrets.  Currently it does so by storing
 secrets in SSM Parameter Store, an AWS service for storing secrets.
@@ -201,3 +203,7 @@ If you'd like to use a different region for chamber without changing `AWS_REGION
 To cut a new release, just push a tag named `v<semver>` where `<semver>` is a
 valid semver version.  This tag will be used by Circle to automatically publish
 a github release.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Femilva%2Fchamber.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Femilva%2Fchamber?ref=badge_large)
